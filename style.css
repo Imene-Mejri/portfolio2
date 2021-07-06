@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color:black;
+    color: white;
+    width: 90%;
+    margin: auto;
+  }
+  a {
+    text-decoration: none;
+    color:red;
+  }
+  
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+   align-items: center;
+   font-size: large;
+  }
+  
+  nav a {
+      color:red; 
+      padding:6px;
+  }
+  nav a:hover{
+     
+      background-color: rgb(43, 42, 42);
+      color:white;
+      border-radius: 5px;
+      padding:6px;
+      
+  }
+  #home {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+  .description {
+    line-height: 65px;
+  }
+  .description button {
+    background-color: rgb(236, 236, 59);
+    padding: 10px 50px;
+  }
+  span {
+    color: red;
+  }
+  
+  #about_me {
+    padding-top: 150px;
+  }
+  
+  #about_me h3,
+  #my_work h3,
+  #Contact h3 {
+    color: red;
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+  }
+  #about_me p {
+    margin-top: 50px;
+    font-size: 25px;
+    line-height: 40px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #my_work {
+    padding-top: 50px;
+  }
+  .projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .projects img {
+    background-color: red;
+    margin: 10px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  input {
+    width: 30%;
+    padding: 7px;
+    margin: 8px 0;
+  }
+  input[type="submit"] {
+    background-color: red;
+    width: 10%;
+    padding: 7px;
+    margin: 20px 0;
+    color: white;
+  }
+  
+  .top{
+      position:fixed;
+      right: 20px;
+      bottom: 50px;
+      padding:10px;
+      background-color: red;
+      color:white;
+  
+  }
+  footer{
+      padding:50px 0 50px 0;
+  }
